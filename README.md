@@ -2,7 +2,7 @@
 
 > Uma aplicação web interativa e responsiva para gerenciamento de tarefas diárias, com persistência de dados no navegador e filtros de visualização.
 
-![Demonstração do Projeto](./Image/ToDoList.png) *(Substitua ./preview.png pelo caminho da foto do seu projeto)*
+![Demonstração do Projeto](./Image/ToDoList.png) 
 
 ---
 
