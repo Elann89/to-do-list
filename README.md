@@ -10,7 +10,7 @@
 
 Este projeto foi desenvolvido como parte dos meus estudos práticos na **UniGrande (Fortaleza)** e no **freeCodeCamp**. O objetivo principal foi exercitar conceitos fundamentais de JavaScript vanilla, como manipulação do DOM, manipulação de arrays, tratamento de eventos e persistência de dados localmente no navegador.
 
-🌐 **Acesse a aplicação no ar:** [Link do seu GitHub Pages](https://github.com/Elann89/to-do-list)
+🌐 **Acesse a aplicação no ar:** [To-Do List - GitHub Pages](https://elann89.github.io/to-do-list/)
 
 ---
 
@@ -40,4 +40,7 @@ Este projeto foi desenvolvido como parte dos meus estudos práticos na **UniGran
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seuusuario/NOME-DO-REPOSITORIO.git](https://github.com/Elann89/to-do-list)
+   git clone https://github.com/Elann89/to-do-list.git
+   ```
+
+2. Abra o arquivo `index.html` no seu navegador.
