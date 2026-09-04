@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Minhas Tarefas 📝</h1>
+
+        <!-- Campo de entrada e botão -->
+        <div class="input-group">
+            <input type="text" id="input-tarefa" placeholder="Digite uma nova tarefa...">
+            <button id="btn-adicionar">Adicionar</button>
+        </div>
+
+        <!-- Botões de Filtro -->
+<div class="filtros-container">
+    <button class="btn-filtro ativo" data-filtro="todas">Todas</button>
+    <button class="btn-filtro" data-filtro="pendentes">Pendentes</button>
+    <button class="btn-filtro" data-filtro="concluidas">Concluídas</button>
+</div>
+
+<!-- Área de Ações/Status -->
+<div class="acoes-container">
+    <p id="contador-pendentes">Tarefas pendentes: 0</p>
+    <button id="btn-limpar-concluidas" class="btn-limpar">Limpar concluídas</button>
+</div>
+
+
+        <!-- Lista onde os itens serão inseridos dinamicamente -->
+        <ul id="lista-tarefas"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
