@@ -13,6 +13,10 @@ body {
     padding-top: 50px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     width: 100%;
     max-width: 400px;
